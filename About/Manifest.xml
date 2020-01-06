@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>Inggo-CoC-Cults-MoreDieties</identifier>
+  <version>1.0.0</version>
+  <dependencies>
+    <li>CoC-Cults</li>
+  </dependencies>
+  <incompatibleWith />
+  <loadBefore />
+  <loadAfter>
+    <li>CoC-Cults</li>
+  </loadAfter>
+  <manifestUri></manifestUri>
+  <downloadUri></downloadUri>
+</Manifest>
