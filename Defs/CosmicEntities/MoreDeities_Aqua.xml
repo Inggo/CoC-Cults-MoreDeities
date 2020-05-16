@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<CultOfCthulhu.CosmicEntityDef>
+		<defName>MoreDeities_Entity_Aqua</defName>
+		<thingClass>CultOfCthulhu.CosmicEntity</thingClass>
+		<label>Aqua</label>
+		<version>1</version>
+		<titles>Goddess of Water</titles>
+		<portrait>Portraits/Aqua</portrait>
+		<domains>Water, Healing, Greed, and Sloth.</domains>
+		<description>Goddess of Water.</description>
+		<descriptionLong>Aqua is a goddess of water who guided humans to the afterlife; within, she is worshipped by the Axis Order.</descriptionLong>
+		<symbol>Mote/Symbols/Aqua</symbol>
+    <tier1SpellDefs>
+      <li>MoreDeities_Aqua_Spell_Favor</li>
+      <li>MoreDeities_Aqua_Spell_Inspiration</li>
+      <li>MoreDeities_Aqua_Spell_FelineAspect</li>
+    </tier1SpellDefs>
+    <tier2SpellDefs>
+      <li>MoreDeities_Aqua_Spell_SummonGuardian</li>
+    </tier2SpellDefs>
+    <tier3SpellDefs>
+      <li>MoreDeities_Aqua_Spell_Sanctuary</li>
+    </tier3SpellDefs>
+    <finalSpellDef>MoreDeities_Aqua_Spell_PassageToAaru</finalSpellDef>
+		<favoredApparel>
+			<li>MoreDeities_Aqua_ApparelRobe</li>
+      <li>MoreDeities_Aqua_ApparelVest</li>
+		</favoredApparel>
+	</CultOfCthulhu.CosmicEntityDef>
+</Defs>
