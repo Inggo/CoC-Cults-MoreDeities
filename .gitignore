@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Source/packages/Lib.Harmony.2.0.1
+/Source/obj/Debug
+/Source/.vs/CoC-Cults-MoreDeities/v16
