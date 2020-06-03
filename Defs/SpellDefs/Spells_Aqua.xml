@@ -6,71 +6,51 @@
 		<defName>MoreDeities_Aqua_Spell_Favor</defName>
 		<workerClass>CultOfCthulhu.SpellWorker_Favor</workerClass>
 		<letterLabel>to be noticed</letterLabel>
-		<letterText>felt a supernatural presence connect with them from beyond space and time</letterText>
+		<letterText>felt a presence connect with them from the Fantasy World</letterText>
 	</IncidentDef>
 
 	<IncidentDef ParentName="SpellDef">
-		<label>Divine Inspiration</label>
-		<description>Aqua smiles upon your colonists, bestowing a random acts of inspiration upon them all</description>
-		<defName>MoreDeities_Aqua_Spell_Inspiration</defName>
-		<workerClass>BastCult.SpellWorker_Inspiration</workerClass>
+		<label>Call Rain</label>
+		<description>Aqua calls forth a shower from the heavens.</description>
+		<defName>MoreDeities_Aqua_Spell_Rain</defName>
+		<workerClass>Inggo.MoreDeities.Aqua.SpellWorker_Rain</workerClass>
 		<letterLabel>and feel her prescence</letterLabel>
-		<letterText>and the congregation feel inspired.</letterText>
+		<letterText>and watched as the clouds gathered and the rain fall</letterText>
 	</IncidentDef>
 
 	<IncidentDef ParentName="SpellDef">
-		<label>Feline Aspect</label>
-		<description>Trasforms your preacher with feline grace and claws.</description>
-		<defName>MoreDeities_Aqua_Spell_FelineAspect</defName>
-		<workerClass>BastCult.SpellWorker_FelineAspect</workerClass>
-		<letterLabel>and feel her prescence</letterLabel>
-		<letterText>watches as their fingernails turn to claws and can now feel their newfound unnatural agility</letterText>
-		<modExtensions>
-			<li Class="BastCult.FelineAspectProperties">
-				<hediffToApplyToBody>BastCatLikeAspect</hediffToApplyToBody>
-				<hediffToApplyToHands>BastClaws</hediffToApplyToHands>
-				<handDefs>
-					<li>Hand</li>
-				</handDefs>
-			</li>
-		</modExtensions>
+		<label>Cleanse</label>
+		<description>Aqua cleans the map of all filth.</description>
+		<defName>MoreDeities_Aqua_Spell_Cleanse</defName>
+		<workerClass>Inggo.MoreDeities.Aqua.SpellWorker_Cleanse</workerClass>
+		<letterLabel>and felt purified</letterLabel>
+		<letterText>and saw the world much cleaner</letterText>
 	</IncidentDef>
 
 	<IncidentDef ParentName="SpellDef">
-		<label>Summon Guardian</label>
-		<description>Transform a beloved feline into a guardian.</description>
-		<defName>MoreDeities_Aqua_Spell_SummonGuardian</defName>
-		<workerClass>BastCult.SpellWorker_Guardian</workerClass>
-		<letterLabel>and have them smite your foes</letterLabel>
-		<letterText>sees that your pet is absorbed in a flash of lite and is transformed into a ferocious beast</letterText>
-		<modExtensions>
-			<li Class="BastCult.GuardianProperties">
-				<eligiblePawnDefs>
-					<li>Cat</li>
-					<li>Cougar</li>
-					<li>Panther</li>
-					<li>Lynx</li>
-				</eligiblePawnDefs>
-				<guardianDef>GuardianBast</guardianDef>
-			</li>
-		</modExtensions>
+		<label>Blessing</label>
+		<description>Aqua blesses and heals her devout followers.</description>
+		<defName>MoreDeities_Aqua_Spell_Blessing</defName>
+		<workerClass>Inggo.MoreDeities.Aqua.SpellWorker_Blessing</workerClass>
+		<letterLabel>and you feel blessed and healed</letterLabel>
+		<letterText>felt the blessing and healed up</letterText>
 	</IncidentDef>
 
-	<IncidentDef ParentName="SpellDef">
-		<label>Sanctuary</label>
-		<description>Protects your settlement from most hostiles</description>
-		<defName>MoreDeities_Aqua_Spell_Sanctuary</defName>
-		<workerClass>BastCult.SpellWorker_Sanctuary</workerClass>
-		<letterLabel>may your enemies flee in futility</letterLabel>
-		<letterText>sighs in relief as your enemies flee</letterText>
-	</IncidentDef>
+  <IncidentDef ParentName="SpellDef">
+    <label>Fountain of Youth</label>
+    <description>Aqua makes her devout follower younger.</description>
+    <defName>MoreDeities_Aqua_Spell_Youth</defName>
+    <workerClass>Inggo.MoreDeities.Aqua.SpellWorker_Youth</workerClass>
+    <letterLabel>and you feel younger</letterLabel>
+    <letterText>saw the blessing of youth</letterText>
+  </IncidentDef>
 
 	<IncidentDef ParentName="SpellDef">
-		<label>Passage to A'aru</label>
-		<description>[Game Ending Spell]\nThe small settlement is deemed worthy by Aqua to enter A'aru.</description>
-		<defName>MoreDeities_Aqua_Spell_PassageToAaru</defName>
-		<workerClass>BastCult.SpellWorker_PassageToAaru</workerClass>
-		<letterLabel>and cry out in supplication that she may gaze upon your small settlement and deem you worthy</letterLabel>
-		<letterText>dons a mask and so is free</letterText>
+		<label>Resurrection</label>
+		<description>Aqua resurrects a dead ally.</description>
+		<defName>MoreDeities_Aqua_Spell_Resurrection</defName>
+		<workerClass>Inggo.MoreDeities.Aqua.SpellWorker_Resurrection</workerClass>
+		<letterLabel>may your renewed life last</letterLabel>
+		<letterText>rejoices as the lost live once more</letterText>
 	</IncidentDef>
 </Defs>

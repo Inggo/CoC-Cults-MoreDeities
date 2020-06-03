@@ -73,7 +73,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>MoreDeities_Aqua_ApparelVest</defName>
     <description>This sacred vestiments allows priests to preach with greater appeal by appealing to the Goddess Aqua. Fits the middle layer.</description>
-    <label>Cultist Vest (Aqua)</label>
+    <label>cultist vest (Aqua)</label>
     <graphicData>
       <texPath>Apparel/Bodywear_Clothing/NyarlathotepRobes/ROMNyarlathotepRobes</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -104,7 +104,6 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
-        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Apparel/Bodywear_Clothing/NyarlathotepRobes/ROMNyarlathotepRobes</wornGraphicPath>
       <layers>
@@ -143,7 +142,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>MoreDeities_Aqua_ApparelNegligee</defName>
     <description>This sacred nightgown allows priests to preach with greater appeal by appealing to the Goddess Aqua. Fits the inner layer.</description>
-    <label>Cultist Negligee (Aqua)</label>
+    <label>cultist negligee (Aqua)</label>
     <graphicData>
       <texPath>Apparel/Bodywear_Clothing/NyarlathotepRobes/ROMNyarlathotepRobes</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -174,7 +173,6 @@
         <li>Torso</li>
         <li>Shoulders</li>
         <li>Arms</li>
-        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Apparel/Bodywear_Clothing/NyarlathotepRobes/ROMNyarlathotepRobes</wornGraphicPath>
       <layers>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <MoreDeities_Aqua_AlreadyRaining>It is already raining.</MoreDeities_Aqua_AlreadyRaining>
+  <MoreDeities_Aqua_AlreadyClear>The skies are already clear.</MoreDeities_Aqua_AlreadyClear>
+  <MoreDeities_Thoughts_Aqua_Blessed>Received Aqua's blessing.</MoreDeities_Thoughts_Aqua_Blessed>
+  <MoreDeities_Aqua_Youth>{0} has become younger by {1} and is now {2} old!</MoreDeities_Aqua_Youth>
+  <MoreDeities_Aqua_TooYoung>{0} is too young for her blessing.</MoreDeities_Aqua_TooYoung>
+  <MoreDeities_Aqua_NoDead>You do not have any dead companions.</MoreDeities_Aqua_NoDead>
+  <MoreDeities_Aqua_Resurrected>Resurrected by Aqua.</MoreDeities_Aqua_Resurrected>
+</LanguageData>

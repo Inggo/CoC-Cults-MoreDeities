@@ -13,19 +13,20 @@
 		<symbol>Mote/Symbols/Aqua</symbol>
     <tier1SpellDefs>
       <li>MoreDeities_Aqua_Spell_Favor</li>
-      <li>MoreDeities_Aqua_Spell_Inspiration</li>
-      <li>MoreDeities_Aqua_Spell_FelineAspect</li>
+      <li>MoreDeities_Aqua_Spell_Rain</li>
+      <li>MoreDeities_Aqua_Spell_Cleanse</li>
     </tier1SpellDefs>
     <tier2SpellDefs>
-      <li>MoreDeities_Aqua_Spell_SummonGuardian</li>
+      <li>MoreDeities_Aqua_Spell_Blessing</li>
     </tier2SpellDefs>
     <tier3SpellDefs>
-      <li>MoreDeities_Aqua_Spell_Sanctuary</li>
+      <li>MoreDeities_Aqua_Spell_Youth</li>
     </tier3SpellDefs>
-    <finalSpellDef>MoreDeities_Aqua_Spell_PassageToAaru</finalSpellDef>
+    <finalSpellDef>MoreDeities_Aqua_Spell_Resurrection</finalSpellDef>
 		<favoredApparel>
 			<li>MoreDeities_Aqua_ApparelRobe</li>
       <li>MoreDeities_Aqua_ApparelVest</li>
+      <li>MoreDeities_Aqua_ApparelNegligee</li>
 		</favoredApparel>
 	</CultOfCthulhu.CosmicEntityDef>
 </Defs>

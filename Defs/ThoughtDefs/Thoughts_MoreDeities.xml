@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>MoreDeities_Thoughts_Aqua_Blessed</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>1</durationDays>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>received blessing of Aqua</label>
+				<description>I received a blessing from the Goddess Aqua.</description>
+				<baseMoodEffect>11</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

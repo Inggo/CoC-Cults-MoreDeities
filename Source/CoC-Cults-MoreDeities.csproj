@@ -71,6 +71,11 @@
   <ItemGroup>
     <Compile Include="MoreDeities.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Spells\Aqua\SpellWorker_Cleanse.cs" />
+    <Compile Include="Spells\Aqua\SpellWorker_Resurrection.cs" />
+    <Compile Include="Spells\Aqua\SpellWorker_Blessing.cs" />
+    <Compile Include="Spells\Aqua\SpellWorker_Rain.cs" />
+    <Compile Include="Spells\Aqua\SpellWorker_Youth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -2,13 +2,19 @@
 <Defs>
   <ThingDef ParentName="MonstrousSculpture">
     <defName>MoreDeities_Aqua_Sculpture</defName>
-    <label>sculpture of aqua</label>
+    <label>sculpture of Aqua</label>
     <description>A sculpture tributing the Goddess Aqua.</description>
+    <size>(2,2)</size>
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
       <texPath>Buildings/Sculptures/Aqua</texPath>
-      <drawSize>(4,4)</drawSize>
+      <drawSize>(3,3)</drawSize>
     </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Beauty>250</Beauty>
+    </statBases>
+    <costStuffCount>240</costStuffCount>
     <comps>
       <li Class="CultOfCthulhu.CompProperties_FavoredObject">
         <deities>
